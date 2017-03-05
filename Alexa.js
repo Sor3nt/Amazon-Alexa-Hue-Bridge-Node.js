@@ -3,7 +3,7 @@
  * Amazon Alexa Hue Bridge for Node.js
  * Feel free to spend me a beer for this work <paypal:sor3nt@gmail.com>, thank you!
  *
- * A simple NodeJs Module that simulate a Philips Hue Bridge.
+ * A simple Node.js Module that simulate a Philips Hue Bridge.
  *
  */
 

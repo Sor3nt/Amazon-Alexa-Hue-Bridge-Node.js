@@ -24,7 +24,7 @@ new (require('./Alexa.js').server)({
             name: 'Anlage',
             state: false,
             off: 'AnlageOff.sh',
-            on: 'AnöageAn.sh'
+            on: 'AnlageOn.sh'
         }
     ]
 });

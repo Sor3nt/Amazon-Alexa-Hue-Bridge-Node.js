@@ -7,24 +7,16 @@ A simple Node.js Module that simulate a Philips Hue Bridge.
 
 ```
 new (require('./Alexa.js').server)({
-
-    // local IP (not the alexa ip)
-    localIp: '192.168.0.22',
-
-    // http server port
-    port: 8080,
-
-    //bridge name
-    bridgeName: 'amazon-ha-bridge10',
-
-    //devices
-    devices: [
+    localIp: '192.168.0.22',            // local IP (not the alexa ip)
+    port: 8080,                         // http server port
+    bridgeName: 'amazon-ha-bridge10',   // bridge name
+    devices: [                          // devices
         {
             id: 1,
-            name: 'Anlage',
-            state: false,
-            off: 'AnlageOff.sh',
-            on: 'AnlageOn.sh'
+            name: 'Anlage',             // Device name also trigger word
+            state: false,               // Current state (on/off)
+            off: 'AnlageOff.sh',        // turn off script
+            on: 'AnlageOn.sh'           // turn on script
         }
     ]
 });
